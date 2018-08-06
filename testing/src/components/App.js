@@ -35,6 +35,7 @@ class App extends Component {
   render(){
     return(
       <div>
+        <h1>Jonny</h1>
         {this.renderHeader()}
         <Route path="/post" component={CommentBox} />
         <Route path="/" exact component={CommentList} />

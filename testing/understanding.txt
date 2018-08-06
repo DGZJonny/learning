@@ -1,0 +1,11 @@
+src
+-actions
+	-index.js: actions needed to process things
+	-types.js: exports the actions created from index.js
+
+-components
+	-App.js: the template of what a webapp will contain (holds components 	such as a commentbox)
+
+-reducers
+	-action handling is done here
+	
