@@ -1,2 +1,5 @@
-lecture 90 start
+lecture 94 start
 section 5 authentication
+
+npm init
+npm install --save express mongoose morgan body-parser
