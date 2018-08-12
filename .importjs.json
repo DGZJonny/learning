@@ -1,0 +1,6 @@
+{
+  "lookupPaths": [
+    "node_modules/react-toolbox/components/**/*.js",
+    "Project01/revents/src"
+  ]
+}
