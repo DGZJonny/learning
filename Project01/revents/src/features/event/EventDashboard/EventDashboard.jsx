@@ -79,7 +79,7 @@ class EventDashboard extends Component {
   handleUpdateEvent = (updatedEvent) => {
     this.setState({
       events: this.state.events.map(event=> {
-        if (event.id == updatedEvent.id) {
+        if (event.id === updatedEvent.id) {
           return Object.assign({}, updatedEvent); // object.assign clones object - copy updatedEvent into empty object {} then assigned what is being replaced
         } else { 
           return event

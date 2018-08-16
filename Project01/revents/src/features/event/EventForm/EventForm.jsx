@@ -27,7 +27,7 @@ class EventForm extends Component {
     componentWillReceiveProps(nextProps) {
         console.log('current', this.props.selectedEvent);
         console.log('next: ', nextProps.selectedEvent);
-        if (nextProps.selectedEvent != this.props.selectedEvent) {
+        if (nextProps.selectedEvent !== this.props.selectedEvent) {
             this.setState({
                 event: nextProps.selectedEvent || emptyEvent
             })
